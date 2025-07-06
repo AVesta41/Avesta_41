@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Avesta Innen- & Außendekoration</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background-color: #f9f7f1;
+    color: #333;
+  }
+  header {
+    background-color: #8b5e3c;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  nav {
+    background-color: #d9cbbf;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+  }
+  nav a {
+    color: #5a3e23;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+  }
+  h1, h2 {
+    color: #5a3e23;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .gallery img {
+    max-width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+  }
+  footer {
+    background-color: #8b5e3c;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 40px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  form label {
+    margin: 10px 0 5px;
+  }
+  form input, form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #5a3e23;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  form button:hover {
+    background-color: #3e2714;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Avesta Innen- & Außendekoration</h1>
+  <p>Ihr Partner für Innen- und Außengestaltung</p>
+</header>
+
+<nav>
+  <a href="#home">Startseite</a>
+  <a href="#about">Über uns</a>
+  <a href="#services">Dienstleistungen</a>
+  <a href="#projects">Projekte</a>
+  <a href="#contact">Kontakt</a>
+</nav>
+
+<section id="home">
+  <h2>Willkommen bei Avesta Design</h2>
+  <p>Wir verwandeln Ihre Innen- und Außenbereiche in stilvolle und funktionale Lebensräume. Mit viel Liebe zum Detail und kreativem Design setzen wir Ihre Wünsche um.</p>
+</section>
+
+<section id="about">
+  <h2>Über uns</h2>
+  <p>Avesta Innen- & Außendekoration steht für Qualität, Kreativität und Zuverlässigkeit. Unser erfahrenes Team begleitet Sie von der Planung bis zur Umsetzung Ihrer Projekte.</p>
+</section>
+
+<section id="services">
+  <h2>Unsere Dienstleistungen</h2>
+  <ul>
+    <li>Innenraumgestaltung & Beratung</li>
+    <li>Außendekoration & Landschaftsgestaltung</li>
+    <li>Möbeldesign & Einrichtung</li>
+    <li>Renovierung und Dekoration</li>
+    <li>Individuelle Raum- und Außenkonzepte</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>Projekte</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/300x200?text=Projekt+1" alt="Projekt 1" />
+    <img src="https://via.placeholder.com/300x200?text=Projekt+2" alt="Projekt 2" />
+    <img src="https://via.placeholder.com/300x200?text=Projekt+3" alt="Projekt 3" />
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Kontakt</h2>
+  <form onsubmit="alert('Vielen Dank für Ihre Nachricht!'); return false;">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+    
+    <label for="email">E-Mail:</label>
+    <input type="email" id="email" name="email" required />
+    
+    <label for="message">Nachricht:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    
+    <button type="submit">Senden</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Avesta Innen- & Außendekoration</p>
+  <p>Folgen Sie uns: 
+    <a href="#" style="color: #ddd; text-decoration:none;">Facebook</a> | 
+    <a href="#" style="color: #ddd; text-decoration:none;">Instagram</a> | 
+    <a href="#" style="color: #ddd; text-decoration:none;">LinkedIn</a>
+  </p>
+</footer>
+
+</body>
+</html>
